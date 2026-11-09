@@ -3,6 +3,8 @@
 # dependencies
 node_modules/
 
+assets/
+
 # Expo
 .expo/
 dist/
@@ -41,3 +43,7 @@ yarn-error.*
 /android
 
 .env
+
+.expo
+LICENSE
+app.json

@@ -17,12 +17,12 @@ app.get("/", (req, res) => {
     res.send("Meta Lead Ads Backend is running!");
 });
 
-app.get("/health", (req, res) => {
-    res.status(200).json({
-        success: true,
-        message: "Backend is healthy"
-    });
-});
+// app.get("/health", (req, res) => {
+//     res.status(200).json({
+//         success: true,
+//         message: "Backend is healthy"
+//     });
+// });
 
 // Create HTTP server
 const server = http.createServer(app);
